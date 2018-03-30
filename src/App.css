@@ -1,0 +1,43 @@
+body {
+}
+
+.row {
+  display: flex;
+  flexdirection: row;
+}
+
+.users {
+  width: 30%;
+  padding: 20px;
+  background-color: teal;
+}
+
+.messages {
+  flex: 1;
+  padding: 20px;
+  background-color: white;
+  height: 100vh;
+}
+
+.post-box {
+  background-color: lightblue;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 30px 50px;
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 10px 5px;
+}
+
+.message {
+  padding: 5px 10px;
+  border: 1px solid silver;
+}
+
+.central-form {
+  max-width: 500px;
+  margin: 30px auto;
+}
