@@ -23,10 +23,12 @@ export default class SelectUser extends Component {
     return (
       <div className="central-form">
         <h2>Set username</h2>
-        <input type="text" value={name} onChange={this.onNameChange} />
-        <p>
-          <input type="submit" onClick={this.onSubmit} />
-        </p>
+        <form>
+          <input type="text" value={name} onChange={this.onNameChange} />
+          <p>
+            <input type="submit" onClick={this.onSubmit} />
+          </p>
+        </form>
       </div>
     );
   }
